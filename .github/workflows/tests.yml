@@ -41,7 +41,7 @@ jobs:
       - name: delete pr branch
         run: |
           pushd cf-autotick-bot-test-package-feedstock
-          git push origin --delete beckermr/update-feedstock-version
+          git push origin --delete conda-forge-admin/update-feedstock-version
           popd
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
@@ -78,7 +78,7 @@ jobs:
       - name: delete pr branch
         run: |
           pushd cf-autotick-bot-test-package-feedstock
-          git push origin --delete beckermr/update-feedstock-version
+          git push origin --delete conda-forge-admin/update-feedstock-version
           popd
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
