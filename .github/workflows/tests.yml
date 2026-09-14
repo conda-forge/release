@@ -34,7 +34,7 @@ jobs:
       - name: checkout fork
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
-          repository: beckermr/cf-autotick-bot-test-package-feedstock
+          repository: conda-forge-admin/cf-autotick-bot-test-package-feedstock
           path: cf-autotick-bot-test-package-feedstock
           token: ${{ secrets.CF_ADMIN_GITHUB_TOKEN }}
 
@@ -71,7 +71,7 @@ jobs:
       - name: checkout fork
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
-          repository: beckermr/cf-autotick-bot-test-package-feedstock
+          repository: conda-forge-admin/cf-autotick-bot-test-package-feedstock
           path: cf-autotick-bot-test-package-feedstock
           token: ${{ secrets.CF_ADMIN_GITHUB_TOKEN }}
 
